@@ -1,0 +1,34 @@
+{% load static %}
+{% comment %} {% extends 'base.html' %} {% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOTTY PILGRIM</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style3.css' %}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="vazio">
+        </div>
+        <div class="texto">
+            <p class="descricao">
+                Scott Pilgrim, o protagonista da série de quadrinhos "Scott Pilgrim" criado por Bryan Lee O'Malley, é um personagem canadense que embarca em uma jornada para conquistar o coração de Ramona Flowers, derrotando seus sete ex-namorados do mal ao longo do caminho. . Lançada em 2004, a série é conhecida por sua narrativa visualmente cativante, referências à cultura pop, videogames e música, e explora temas de crescimento e relações interpessoais.
+A popularidade de Scott Pilgrim se estendeu para o cinema, com uma adaptação dirigida por Edgar Wright em 2010, que manteve o espírito único dos quadrinhos. A história de Scott Pilgrim continua atraindo fãs devido à sua abordagem ousada e narrativa envolvente, mantendo sua relevância na cultura geek e conquistando um lugar especial no mundo dos quadrinhos.</p>
+        </div>
+        <div class="quadrinho">
+            <p class="leia"> LEIA O QUADRINHO</p>
+            <iframe src="{% static 'midia/Scott Pilgrim Vol 01 - Vidinha Preciosa.pdf' %}" width="500vh" height="600"></iframe>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Um teste de Caio, Charles, João Pedro, Matheus e Suel</p>
+    </div>
+
+</body>
+</html>

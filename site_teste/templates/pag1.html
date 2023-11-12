@@ -1,0 +1,32 @@
+{% load static %}
+{% comment %} {% extends 'base.html' %} {% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATMAN</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="quadrinho">
+            <p class="leia"> LEIA O QUADRINHO</p>
+            <iframe src="{% static 'midia/Batman Ano um HQ.pdf' %}" width="600vh" height="600"></iframe>
+        </div>
+        <div class="texto">
+            <p class="descricao">Batman é um icônico personagem da DC Comics, criado por Bob Kane e Bill Finger, que fez sua estreia em "Detective Comics" #27 em 1939. Sua origem como Bruce Wayne, um menino que testemunhou o assassinato de seus pais e jurou combater o crime em Gotham City, é central para sua identidade. Batman é conhecido por sua dedicação à luta contra o crime, sua habilidade de detective e sua vasta gama de gadgets. Ao longo dos anos, ele enfrentou vilões icônicos e inspirou diversas adaptações em séries de televisão, desenhos animados e filmes, consolidando-se como um símbolo duradouro de justiça e complexidade na cultura pop. </p>
+        </div>
+        <div class="vazio">
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Um teste de Caio, Charles, João Pedro, Matheus e Suel</p>
+    </div>
+
+</body>
+</html>

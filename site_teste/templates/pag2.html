@@ -1,0 +1,33 @@
+{% load static %}
+{% comment %} {% extends 'base.html' %} {% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEM-ARANHA</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style2.css' %}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="texto">
+            <p class="descricao">
+                O Homem-Aranha, criado por Stan Lee e Steve Ditko em 1962, é um super-herói icônico da Marvel. Sua história começa com o adolescente Peter Parker, que ganha habilidades de aranha após ser picado por uma aranha radioativa e decide usá-las para combater o crime. Ao longo dos anos, o Homem-Aranha apresentou uma variedade de vilões, explorou dilemas pessoais e teve adaptações notáveis ​​no cinema, consolidando-se como um personagem complexo e amado por gerações de fãs, graças à sua relacionabilidade e apelo na cultura pop.</p>
+        </div>
+        <div class="vazio">
+        </div>
+        <div class="quadrinho">
+            <p class="leia"> LEIA O QUADRINHO</p>
+            <iframe src="{% static 'midia/01-Teia do Homem-Aranha 31 (1987) (ST-SQ).pdf' %}" width="600vh" height="600"></iframe>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Um teste de Caio, Charles, João Pero, Matheus e Suel</p>
+    </div>
+
+</body>
+</html>
